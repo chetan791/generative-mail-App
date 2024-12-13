@@ -133,7 +133,7 @@ export const ChatPage = () => {
   return (
     <div className="flex justify-center items-center relative px-[5%] pt-[20px]">
       <div className="w-full bg-chat h-[90vh] rounded-xl p-4 flex flex-col justify-between w-full gap-4">
-        <div className="w-full rounded-xl h-auto p-4 overflow-y-auto scrollbar-hide flex flex-col">
+        <div className="w-full rounded-xl h-auto p-4 overflow-y-auto flex flex-col">
           {message.map((message, index) => (
             <div key={index} className="w-full flex flex-col gap-2">
               <div className="flex justify-end">
@@ -174,7 +174,7 @@ export const ChatPage = () => {
             rows={1}
             placeholder="Ask AI"
             // style={{ border: "1px solid white" }}
-            className="w-full text-foreground bg-transparent outline-none resize-none overflow-y-auto scrollbar-hide p-2"
+            className="w-full text-foreground bg-transparent outline-none resize-none overflow-y-auto  p-2"
             onInput={adjustHeight}
           ></textarea>
           <IoSend
