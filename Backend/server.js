@@ -5,7 +5,11 @@ const connection = require("./config/DB");
 const userRouter = require("./Routes/userRoutes");
 const dotenv = require("dotenv").config();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FrontendUrl,
+  })
+);
 app.use(express.json());
 
 app.use("/user", userRouter);
