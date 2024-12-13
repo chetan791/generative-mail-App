@@ -18,11 +18,12 @@ export const Login = () => {
 
   const login = useGoogleLogin({
     flow: "auth-code",
-    scope: "https://mail.google.com email profile",
+    scope: "https://mail.google.com/ email profile",
     access_type: "offline",
     prompt: "consent",
     onSuccess: async (credentialsResponse) => {
       const { code } = credentialsResponse;
+      console.log("==>", code);
       try {
         const data = await axios.post(
           `${import.meta.env.VITE_BACKEND_URL}user/login`,
