@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/38049438-7b95-4a28-a5c3-9b4c72eded72)
 
+Frontend Deployed URL : https://generative-mail-app.vercel.app/
+Backend Deployed URL : https://generative-mail-app.onrender.com
+
 
 ## Table of Contents
 
