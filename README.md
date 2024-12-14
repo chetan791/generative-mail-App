@@ -94,9 +94,7 @@ Create a .env file in the generative-mail-app directory and add the following va
 VITE_GOOGLE_AI_API_KEY="your_google_ai_studio_api_key"
 VITE_GOOGLE_CLIENT_ID="your_google_client_id"
 VITE_BACKEND_URL="your_backend_url"
-VITE_GOOGLE_AI_API_KEY: Your Google AI Studio API key.
-VITE_GOOGLE_CLIENT_ID: Your Google OAuth client ID.
-VITE_BACKEND_URL: The URL where your backend server is running.
+
 Start the frontend development server:
 
 npm run dev
