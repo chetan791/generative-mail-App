@@ -60,17 +60,14 @@ cd generative-mail-app
 Backend Setup
 Navigate to the backend directory:
 
-bash
 cd backend
 
 Install the dependencies:
 
-bash
 npm install
 
 Create a .env file in the backend directory and add the following variables:
 
-env
 port="your_port_number"
 MongoUrl="your_mongodb_connection_string"
 GOOGLE_CLIENT_ID="your_google_client_id"
@@ -80,24 +77,20 @@ FrontendUrl="your_frontend_origin_url"
 
 Start the backend server:
 
-bash
 npm run server
 
 
 Frontend Setup
 Navigate to the frontend directory:
 
-bash
 cd ../generative-mail-app
 
 Install the dependencies:
 
-bash
 npm install
 
 Create a .env file in the generative-mail-app directory and add the following variables:
 
-env
 VITE_GOOGLE_AI_API_KEY="your_google_ai_studio_api_key"
 VITE_GOOGLE_CLIENT_ID="your_google_client_id"
 VITE_BACKEND_URL="your_backend_url"
@@ -106,7 +99,6 @@ VITE_GOOGLE_CLIENT_ID: Your Google OAuth client ID.
 VITE_BACKEND_URL: The URL where your backend server is running.
 Start the frontend development server:
 
-bash
 npm run dev
 
 Usage
