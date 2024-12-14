@@ -32,17 +32,15 @@ Generative Mail App is a full-stack web application that allows users to **login
 
 ### Login
 
-![Login Screenshot](path-to-login-image.png)
+![Screenshot 2024-12-14 094134](https://github.com/user-attachments/assets/f0a1e852-fb53-4d06-b566-0b49f6f6b3bd)
 
 ### Chat
 
-![Chat Screenshot](path-to-chat-image.png)
+![Screenshot 2024-12-14 094104](https://github.com/user-attachments/assets/431667f5-8a47-49d6-974f-0182e1a0d9ad)
 
 ### Send Email
 
-![Send Email Screenshot](path-to-send-email-image.png)
-
-*Replace `path-to-*.png` with the actual paths to your images.*
+![Screenshot 2024-12-14 094125](https://github.com/user-attachments/assets/48d152de-bc5f-43b1-ae57-d93a9d70ea81)
 
 ## Installation
 
