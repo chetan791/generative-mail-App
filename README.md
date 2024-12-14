@@ -54,19 +54,18 @@ To get the project up and running on your local machine, follow these steps.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/generative-mail-app.git
+git clone https://github.com/chetan791/generative-mail-App.git
 cd generative-mail-app
 
 Backend Setup
 Navigate to the backend directory:
 
 bash
-Copy code
+cd backend
 
 Install the dependencies:
 
 bash
-Copy code
 npm install
 
 Create a .env file in the backend directory and add the following variables:
