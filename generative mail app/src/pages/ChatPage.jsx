@@ -102,7 +102,7 @@ export const ChatPage = () => {
       if (e.target.checkValidity()) {
         setLoading(true);
         const res = await axios.post(
-          `https://generative-mail-app.onrender.com/user/mail`,
+          `${import.meta.env.VITE_BACKEND_URL}user/mail`,
           emailData
         );
         console.log(res);

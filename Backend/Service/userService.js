@@ -60,7 +60,7 @@ const sendMail = async (
 
   const mailOptions = {
     from: {
-      name: "chetan chauhan",
+      name: "Generative Mail App",
       address: email,
     },
     to: recipient,

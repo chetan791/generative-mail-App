@@ -26,7 +26,7 @@ export const Login = () => {
       console.log("==>", code);
       try {
         const data = await axios.post(
-          `https://generative-mail-app.onrender.com/user/login`,
+          `${import.meta.env.VITE_BACKEND_URL}user/login`,
           { code }
         );
         console.log(data);
